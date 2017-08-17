@@ -6,8 +6,22 @@
 
 .icons-container i {
   font-size: 70px;
-  padding: 15px; }
+  padding: 15px;
+  text-align: center; }
+  .icons-container i:hover {
+    content: "hi";
+    display: block;
+    color: #49bf9d; }
 
+@media (max-width: 400px) {
+  .icons-container i {
+    font-size: 40px; } }
+.mobile {
+  display: none; }
+
+@media (max-width: 980px) {
+  .mobile {
+    display: block; } }
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
