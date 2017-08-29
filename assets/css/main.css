@@ -1581,7 +1581,7 @@ input[type="radio"] + label:before {
     -webkit-transition: opacity 0.2s ease-in-out;
     -ms-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
-    background: url("images/overlay.png");
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 0.35em;
     content: '';
     display: block;
@@ -1618,8 +1618,8 @@ input[type="radio"] + label:before {
     .image.thumb:hover:after {
       opacity: 1.0; }
     .image.thumb:hover:before {
-      background: url("images/overlay.png"), url("images/overlay.png");
-      opacity: 1.0; }
+      background: #2b725e;
+      opacity: 0.70; }
   .image img {
     border-radius: 0.35em;
     display: block; }
@@ -2106,7 +2106,7 @@ input[type="button"],
     -ms-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-    background: rgba(0, 0, 0, 0.01);
+    background: rgba(0, 0, 0, 0.1);
     cursor: pointer;
     height: 100%;
     opacity: 0;
@@ -2123,7 +2123,7 @@ input[type="button"],
       text-transform: none !important; }
     .poptrox-popup .nav-next:before,
     .poptrox-popup .nav-previous:before {
-      color: #fff;
+      color: #7fd2ba;
       font-size: 2.5em;
       height: 1em;
       line-height: 1em;
